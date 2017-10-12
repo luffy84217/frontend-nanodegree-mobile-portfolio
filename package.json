@@ -10,7 +10,9 @@
     "type": "git",
     "url": "git+https://github.com/luffy84217/frontend-nanodegree-mobile-portfolio.git"
   },
-  "keywords": [],
+  "keywords": [
+    "portfolio"
+  ],
   "author": "Fu Chuan Yu",
   "license": "MIT",
   "bugs": {
