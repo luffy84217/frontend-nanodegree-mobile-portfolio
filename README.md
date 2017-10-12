@@ -22,7 +22,7 @@ In order to use Google Image Crawler, you must have the following installed:
 To install the dependencies, enter the following in your terminal:
 
 ```
-$ cd google-image-crawler
+$ cd your-project-path
 $ npm install
 ```
 
