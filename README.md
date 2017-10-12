@@ -1,40 +1,52 @@
-## Website Performance Optimization portfolio project
+# Website Performance Optimization portfolio project
 
 Your challenge, if you wish to accept it (and we sure hope you will), is to optimize this online portfolio for speed! In particular, optimize the critical rendering path and make this page render as quickly as possible by applying the techniques you've picked up in the [Critical Rendering Path course](https://www.udacity.com/course/ud884).
 
 To get started, check out the repository and inspect the code.
 
-### Getting started
+## Getting Started
 
-#### Part 1: Optimize PageSpeed Insights score for index.html
+These instructions will get you a copy of the project up and running on your local machine.
 
-Some useful tips to help you get started:
 
-1. Check out the repository
-1. To inspect the site on your phone, you can run a local server
+### Prerequisites
 
-  ```bash
-  $> cd /path/to/your-project-folder
-  $> python -m SimpleHTTPServer 8080
-  ```
+In order to use Google Image Crawler, you must have the following installed:
 
-1. Open a browser and visit localhost:8080
-1. Download and install [ngrok](https://ngrok.com/) to the top-level of your project directory to make your local server accessible remotely.
+- [Node.js](https://nodejs.org/)
+- [npm](https://www.npmjs.com/)
 
-  ``` bash
-  $> cd /path/to/your-project-folder
-  $> ./ngrok http 8080
-  ```
 
-1. Copy the public URL ngrok gives you and try running it through PageSpeed Insights! Optional: [More on integrating ngrok, Grunt and PageSpeed.](http://www.jamescryer.com/2014/06/12/grunt-pagespeed-and-ngrok-locally-testing/)
+### Installing
 
-Profile, optimize, measure... and then lather, rinse, and repeat. Good luck!
+To install the dependencies, enter the following in your terminal:
 
-#### Part 2: Optimize Frames per Second in pizza.html
+```
+$ cd google-image-crawler
+$ npm install
+```
 
-To optimize views/pizza.html, you will need to modify views/js/main.js until your frames per second rate is 60 fps or higher. You will find instructive comments in main.js. 
+## Running the npm scripts
 
-You might find the FPS Counter/HUD Display useful in Chrome developer tools described here: [Chrome Dev Tools tips-and-tricks](https://developer.chrome.com/devtools/docs/tips-and-tricks).
+Here are some npm scripts about Google Image Crawler that I had set for project.
+
+### Starting the App
+
+To start the app, make sure you're in the project directory and use CLI.
+This script is equal to `$ http-server`.
+
+```
+$ npm start
+```
+
+## Results
+
+Here the pictures are the results that after testing on PageSpeed Insights.
+<img src="results/desktop.png" width="50%" /><img src="results/mobile.png" width="50%" />
+
+## Others
+
+Here are some information from origin project README.md
 
 ### Optimization Tips and Tricks
 * [Optimizing Performance](https://developers.google.com/web/fundamentals/performance/ "web performance")
